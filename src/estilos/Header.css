@@ -1,0 +1,43 @@
+.Header {
+	background-color: #242526;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 1em;
+}
+
+.contenedor-buscador {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 15%;
+}
+
+.buscador {
+	background-color: #3a3b3c;
+	border: none;
+	outline: none;
+	padding: 1em;
+	border-radius: 20px;
+}
+
+.Header > ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	justify-content: space-around;
+}
+
+.lista-1 {
+	width: 28%;
+}
+
+.lista-2 {
+	width: 20%;
+}
+
+li {
+	&:hover {
+		cursor: pointer;
+	}
+}

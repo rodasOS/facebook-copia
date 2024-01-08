@@ -1,0 +1,46 @@
+.Home {
+	height: 80vh;
+	/* border: 2px white solid; */
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.hijoHome {
+	height: 100%;
+	padding: 1em;
+	width: 33%;
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+	width: 40%;
+}
+
+.contenedor-historias {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+	height: 230px;
+}
+
+.contenedor-estado {
+	background-color: #242526;
+}
+
+.contenedor-estado {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+
+	& > div {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 10px;
+	}
+}
