@@ -1,6 +1,7 @@
 import React from 'react';
 import '../estilos/Header.css';
 import icono from '../assets/icono.ico';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 	return (
@@ -31,7 +32,9 @@ const Header = () => {
 					<span class='material-symbols-outlined'>notifications</span>
 				</li>
 				<li>
-					<span class='material-symbols-outlined'>account_circle</span>
+					<Link to='perfil'>
+						<span class='material-symbols-outlined' id='perfil'>account_circle</span>
+					</Link>
 				</li>
 			</ul>
 		</div>
